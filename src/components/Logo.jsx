@@ -3,7 +3,7 @@ import logo from '../assets/react.svg'
 
 const Logo = () => {
     return (
-        <div>
+        <div className='logo'>
             <img src={logo} alt="logo" />
         </div>
     )

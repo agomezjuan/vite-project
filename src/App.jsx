@@ -1,7 +1,7 @@
-import { useState } from 'react'
+import { useRef, useState } from 'react'
 import reactLogo from './assets/react.svg'
-import './App.css'
 import { Header } from './components/Header'
+import SectionOne from './components/SectionOne/SectionOne'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -9,6 +9,7 @@ function App() {
   return (
     <>
       <Header />
+      <SectionOne />
     </>
   )
 }
